@@ -1,0 +1,425 @@
+{"alert_id": "AL000001", "analyst_id": "AN09", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000005", "analyst_id": "AN13", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000006", "analyst_id": "AN11", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000008", "analyst_id": "AN01", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000009", "analyst_id": "AN10", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000010", "analyst_id": "AN06", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000014", "analyst_id": "AN03", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000017", "analyst_id": "AN01", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000019", "analyst_id": "AN12", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000027", "analyst_id": "AN12", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000029", "analyst_id": "AN09", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000030", "analyst_id": "AN11", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000031", "analyst_id": "AN12", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000035", "analyst_id": "AN14", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000044", "analyst_id": "AN12", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000047", "analyst_id": "AN03", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000049", "analyst_id": "AN06", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000058", "analyst_id": "AN10", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000062", "analyst_id": "AN12", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000066", "analyst_id": "AN07", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000067", "analyst_id": "AN03", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000069", "analyst_id": "AN14", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000071", "analyst_id": "AN05", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000072", "analyst_id": "AN09", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000077", "analyst_id": "AN14", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000078", "analyst_id": "AN13", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000082", "analyst_id": "AN09", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000084", "analyst_id": "AN03", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000085", "analyst_id": "AN04", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000088", "analyst_id": "AN04", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000093", "analyst_id": "AN05", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000095", "analyst_id": "AN07", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000097", "analyst_id": "AN08", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000099", "analyst_id": "AN01", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000102", "analyst_id": "AN01", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000103", "analyst_id": "AN05", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000105", "analyst_id": "AN01", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000108", "analyst_id": "AN03", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000111", "analyst_id": "AN09", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000117", "analyst_id": "AN10", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000122", "analyst_id": "AN02", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000125", "analyst_id": "AN07", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000126", "analyst_id": "AN04", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000131", "analyst_id": "AN10", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000140", "analyst_id": "AN08", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000145", "analyst_id": "AN01", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000147", "analyst_id": "AN10", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000159", "analyst_id": "AN13", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000160", "analyst_id": "AN08", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000171", "analyst_id": "AN03", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000182", "analyst_id": "AN12", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000194", "analyst_id": "AN13", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000197", "analyst_id": "AN13", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000198", "analyst_id": "AN05", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000203", "analyst_id": "AN07", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000207", "analyst_id": "AN08", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000221", "analyst_id": "AN03", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000222", "analyst_id": "AN11", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000224", "analyst_id": "AN07", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000226", "analyst_id": "AN09", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000228", "analyst_id": "AN01", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000229", "analyst_id": "AN04", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000234", "analyst_id": "AN03", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000244", "analyst_id": "AN04", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000255", "analyst_id": "AN08", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000257", "analyst_id": "AN08", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000258", "analyst_id": "AN08", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000260", "analyst_id": "AN02", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000261", "analyst_id": "AN07", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000262", "analyst_id": "AN03", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000264", "analyst_id": "AN02", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000269", "analyst_id": "AN10", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000273", "analyst_id": "AN10", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000274", "analyst_id": "AN14", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000275", "analyst_id": "AN12", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000276", "analyst_id": "AN04", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000284", "analyst_id": "AN14", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000293", "analyst_id": "AN08", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000301", "analyst_id": "AN13", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000307", "analyst_id": "AN02", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000310", "analyst_id": "AN07", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000311", "analyst_id": "AN13", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000319", "analyst_id": "AN13", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000321", "analyst_id": "AN11", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000326", "analyst_id": "AN02", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000332", "analyst_id": "AN14", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000336", "analyst_id": "AN06", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000337", "analyst_id": "AN12", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000345", "analyst_id": "AN12", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000352", "analyst_id": "AN14", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000353", "analyst_id": "AN11", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000354", "analyst_id": "AN11", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000359", "analyst_id": "AN14", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000361", "analyst_id": "AN14", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000364", "analyst_id": "AN04", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000367", "analyst_id": "AN06", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000368", "analyst_id": "AN01", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000372", "analyst_id": "AN01", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000373", "analyst_id": "AN10", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000376", "analyst_id": "AN08", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000378", "analyst_id": "AN08", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000382", "analyst_id": "AN12", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000391", "analyst_id": "AN02", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000392", "analyst_id": "AN10", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000398", "analyst_id": "AN07", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000403", "analyst_id": "AN01", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000412", "analyst_id": "AN01", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000414", "analyst_id": "AN11", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000420", "analyst_id": "AN02", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000422", "analyst_id": "AN04", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000424", "analyst_id": "AN01", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000430", "analyst_id": "AN12", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000442", "analyst_id": "AN11", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000443", "analyst_id": "AN04", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000445", "analyst_id": "AN01", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000450", "analyst_id": "AN06", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000455", "analyst_id": "AN11", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000457", "analyst_id": "AN03", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000462", "analyst_id": "AN08", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000466", "analyst_id": "AN01", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000467", "analyst_id": "AN04", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000468", "analyst_id": "AN01", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000474", "analyst_id": "AN13", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000477", "analyst_id": "AN04", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000481", "analyst_id": "AN01", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000484", "analyst_id": "AN11", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000485", "analyst_id": "AN02", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000486", "analyst_id": "AN14", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000487", "analyst_id": "AN13", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000490", "analyst_id": "AN11", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000494", "analyst_id": "AN06", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000495", "analyst_id": "AN14", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000496", "analyst_id": "AN03", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000499", "analyst_id": "AN01", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000501", "analyst_id": "AN13", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000502", "analyst_id": "AN06", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000513", "analyst_id": "AN14", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000515", "analyst_id": "AN09", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000517", "analyst_id": "AN04", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000520", "analyst_id": "AN02", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000522", "analyst_id": "AN01", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000523", "analyst_id": "AN13", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000526", "analyst_id": "AN14", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000528", "analyst_id": "AN14", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000530", "analyst_id": "AN01", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000534", "analyst_id": "AN07", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000543", "analyst_id": "AN11", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000552", "analyst_id": "AN07", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000554", "analyst_id": "AN08", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000561", "analyst_id": "AN02", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000562", "analyst_id": "AN12", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000563", "analyst_id": "AN08", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000572", "analyst_id": "AN04", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000574", "analyst_id": "AN08", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000577", "analyst_id": "AN01", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000578", "analyst_id": "AN02", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000585", "analyst_id": "AN10", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000591", "analyst_id": "AN14", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000594", "analyst_id": "AN01", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000596", "analyst_id": "AN02", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000597", "analyst_id": "AN04", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000598", "analyst_id": "AN02", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000602", "analyst_id": "AN11", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000604", "analyst_id": "AN06", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000610", "analyst_id": "AN12", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000619", "analyst_id": "AN01", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000621", "analyst_id": "AN03", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000622", "analyst_id": "AN04", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000627", "analyst_id": "AN01", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000630", "analyst_id": "AN07", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000633", "analyst_id": "AN13", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000638", "analyst_id": "AN10", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000640", "analyst_id": "AN08", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000644", "analyst_id": "AN14", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000645", "analyst_id": "AN05", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000646", "analyst_id": "AN08", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000651", "analyst_id": "AN01", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000655", "analyst_id": "AN04", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000657", "analyst_id": "AN10", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000659", "analyst_id": "AN14", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000669", "analyst_id": "AN12", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000676", "analyst_id": "AN06", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000677", "analyst_id": "AN01", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000688", "analyst_id": "AN06", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000689", "analyst_id": "AN01", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000693", "analyst_id": "AN04", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000695", "analyst_id": "AN08", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000701", "analyst_id": "AN11", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000705", "analyst_id": "AN12", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000710", "analyst_id": "AN12", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000715", "analyst_id": "AN06", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000723", "analyst_id": "AN01", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000730", "analyst_id": "AN10", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000734", "analyst_id": "AN01", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000738", "analyst_id": "AN11", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000739", "analyst_id": "AN14", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000741", "analyst_id": "AN01", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000742", "analyst_id": "AN02", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000743", "analyst_id": "AN14", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000747", "analyst_id": "AN08", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000750", "analyst_id": "AN08", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000751", "analyst_id": "AN09", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000757", "analyst_id": "AN10", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000760", "analyst_id": "AN13", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000762", "analyst_id": "AN08", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000766", "analyst_id": "AN10", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000783", "analyst_id": "AN13", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000786", "analyst_id": "AN14", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000787", "analyst_id": "AN09", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000788", "analyst_id": "AN03", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000789", "analyst_id": "AN12", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000790", "analyst_id": "AN01", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000793", "analyst_id": "AN02", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000803", "analyst_id": "AN05", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000804", "analyst_id": "AN14", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000806", "analyst_id": "AN13", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000813", "analyst_id": "AN11", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000814", "analyst_id": "AN08", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000832", "analyst_id": "AN04", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000835", "analyst_id": "AN13", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000840", "analyst_id": "AN11", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000841", "analyst_id": "AN08", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000842", "analyst_id": "AN03", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000843", "analyst_id": "AN08", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000844", "analyst_id": "AN13", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000850", "analyst_id": "AN14", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000860", "analyst_id": "AN12", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000862", "analyst_id": "AN05", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000864", "analyst_id": "AN11", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000870", "analyst_id": "AN03", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000877", "analyst_id": "AN04", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000880", "analyst_id": "AN12", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000882", "analyst_id": "AN06", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000883", "analyst_id": "AN06", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000885", "analyst_id": "AN14", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000886", "analyst_id": "AN10", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000887", "analyst_id": "AN01", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000888", "analyst_id": "AN08", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000891", "analyst_id": "AN09", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000895", "analyst_id": "AN02", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000900", "analyst_id": "AN01", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000907", "analyst_id": "AN12", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000910", "analyst_id": "AN13", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000919", "analyst_id": "AN08", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000922", "analyst_id": "AN05", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000924", "analyst_id": "AN03", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000928", "analyst_id": "AN09", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL000931", "analyst_id": "AN10", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000933", "analyst_id": "AN02", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000946", "analyst_id": "AN07", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000948", "analyst_id": "AN05", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000950", "analyst_id": "AN05", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000955", "analyst_id": "AN12", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000963", "analyst_id": "AN11", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL000966", "analyst_id": "AN04", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000967", "analyst_id": "AN02", "text": "Customer confirmed. FP."}
+{"alert_id": "AL000983", "analyst_id": "AN05", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL000984", "analyst_id": "AN05", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL000988", "analyst_id": "AN14", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL000994", "analyst_id": "AN11", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL000999", "analyst_id": "AN11", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001006", "analyst_id": "AN08", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001007", "analyst_id": "AN01", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001010", "analyst_id": "AN09", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001017", "analyst_id": "AN04", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL001020", "analyst_id": "AN07", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL001023", "analyst_id": "AN11", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL001024", "analyst_id": "AN09", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001025", "analyst_id": "AN12", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001030", "analyst_id": "AN08", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001031", "analyst_id": "AN02", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001032", "analyst_id": "AN01", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL001033", "analyst_id": "AN07", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001039", "analyst_id": "AN06", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001041", "analyst_id": "AN01", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001042", "analyst_id": "AN06", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001049", "analyst_id": "AN11", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001054", "analyst_id": "AN05", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL001058", "analyst_id": "AN10", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL001059", "analyst_id": "AN11", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001060", "analyst_id": "AN04", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL001061", "analyst_id": "AN06", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001065", "analyst_id": "AN12", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001068", "analyst_id": "AN12", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001073", "analyst_id": "AN06", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL001083", "analyst_id": "AN05", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001085", "analyst_id": "AN03", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL001087", "analyst_id": "AN12", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001088", "analyst_id": "AN02", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL001089", "analyst_id": "AN12", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001090", "analyst_id": "AN03", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001094", "analyst_id": "AN03", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001096", "analyst_id": "AN12", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL001097", "analyst_id": "AN06", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001098", "analyst_id": "AN07", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL001100", "analyst_id": "AN05", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001112", "analyst_id": "AN04", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL001116", "analyst_id": "AN12", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL001117", "analyst_id": "AN13", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001120", "analyst_id": "AN07", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001126", "analyst_id": "AN08", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL001127", "analyst_id": "AN02", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001128", "analyst_id": "AN14", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001135", "analyst_id": "AN02", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL001141", "analyst_id": "AN07", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001142", "analyst_id": "AN04", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001143", "analyst_id": "AN09", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001144", "analyst_id": "AN06", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001145", "analyst_id": "AN01", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL001147", "analyst_id": "AN10", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001160", "analyst_id": "AN05", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001161", "analyst_id": "AN05", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001164", "analyst_id": "AN08", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL001165", "analyst_id": "AN04", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001174", "analyst_id": "AN04", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001176", "analyst_id": "AN04", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL001178", "analyst_id": "AN06", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001180", "analyst_id": "AN09", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL001190", "analyst_id": "AN11", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001191", "analyst_id": "AN05", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL001193", "analyst_id": "AN14", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL001198", "analyst_id": "AN06", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001203", "analyst_id": "AN03", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001209", "analyst_id": "AN06", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL001212", "analyst_id": "AN05", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001214", "analyst_id": "AN05", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001220", "analyst_id": "AN10", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001221", "analyst_id": "AN02", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL001225", "analyst_id": "AN13", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL001226", "analyst_id": "AN06", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001227", "analyst_id": "AN07", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL001230", "analyst_id": "AN01", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001233", "analyst_id": "AN08", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001234", "analyst_id": "AN05", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001237", "analyst_id": "AN10", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001238", "analyst_id": "AN06", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001242", "analyst_id": "AN02", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL001247", "analyst_id": "AN06", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL001248", "analyst_id": "AN07", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL001250", "analyst_id": "AN07", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001252", "analyst_id": "AN02", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001256", "analyst_id": "AN13", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001258", "analyst_id": "AN06", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001262", "analyst_id": "AN10", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001266", "analyst_id": "AN03", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL001267", "analyst_id": "AN06", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001269", "analyst_id": "AN01", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001273", "analyst_id": "AN12", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001275", "analyst_id": "AN14", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001276", "analyst_id": "AN01", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001285", "analyst_id": "AN05", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL001288", "analyst_id": "AN04", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001290", "analyst_id": "AN04", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001292", "analyst_id": "AN09", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001303", "analyst_id": "AN11", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001306", "analyst_id": "AN01", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL001307", "analyst_id": "AN08", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001309", "analyst_id": "AN12", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL001310", "analyst_id": "AN06", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001313", "analyst_id": "AN05", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL001317", "analyst_id": "AN06", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001322", "analyst_id": "AN04", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001325", "analyst_id": "AN11", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001328", "analyst_id": "AN07", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL001340", "analyst_id": "AN07", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL001343", "analyst_id": "AN03", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001351", "analyst_id": "AN01", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL001357", "analyst_id": "AN12", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001365", "analyst_id": "AN04", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL001383", "analyst_id": "AN11", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001394", "analyst_id": "AN03", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001396", "analyst_id": "AN08", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001403", "analyst_id": "AN14", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL001404", "analyst_id": "AN11", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001407", "analyst_id": "AN12", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL001409", "analyst_id": "AN01", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001413", "analyst_id": "AN03", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001416", "analyst_id": "AN13", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL001417", "analyst_id": "AN08", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL001418", "analyst_id": "AN11", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL001420", "analyst_id": "AN14", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL001423", "analyst_id": "AN01", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL001426", "analyst_id": "AN07", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL001427", "analyst_id": "AN02", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001441", "analyst_id": "AN13", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL001448", "analyst_id": "AN13", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001450", "analyst_id": "AN07", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001456", "analyst_id": "AN10", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001462", "analyst_id": "AN06", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001469", "analyst_id": "AN10", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001472", "analyst_id": "AN07", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL001473", "analyst_id": "AN09", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001475", "analyst_id": "AN08", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL001476", "analyst_id": "AN13", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001477", "analyst_id": "AN14", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL001478", "analyst_id": "AN10", "text": "Multiple deposits just under reporting threshold. Escalating to BSA."}
+{"alert_id": "AL001480", "analyst_id": "AN02", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL001482", "analyst_id": "AN06", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001485", "analyst_id": "AN07", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL001489", "analyst_id": "AN09", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001493", "analyst_id": "AN02", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001494", "analyst_id": "AN06", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001499", "analyst_id": "AN03", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL001509", "analyst_id": "AN12", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001512", "analyst_id": "AN05", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001519", "analyst_id": "AN11", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL001524", "analyst_id": "AN01", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL001526", "analyst_id": "AN04", "text": "Customer confirmed. FP."}
+{"alert_id": "AL001528", "analyst_id": "AN14", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001537", "analyst_id": "AN07", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001538", "analyst_id": "AN14", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL001540", "analyst_id": "AN12", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001542", "analyst_id": "AN11", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001543", "analyst_id": "AN08", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001553", "analyst_id": "AN08", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001571", "analyst_id": "AN13", "text": "Customer confirmed purchase by phone. Closing."}
+{"alert_id": "AL001574", "analyst_id": "AN05", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001575", "analyst_id": "AN10", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL001577", "analyst_id": "AN01", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001580", "analyst_id": "AN08", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001583", "analyst_id": "AN13", "text": "Device unfamiliar; called customer, no answer, left voicemail."}
+{"alert_id": "AL001607", "analyst_id": "AN09", "text": "Velocity rule fired; merchant is known. FP."}
+{"alert_id": "AL001611", "analyst_id": "AN07", "text": "Normal pattern for this account. No further action."}
+{"alert_id": "AL001612", "analyst_id": "AN12", "text": "Large wire to new payee, customer says did not authorize. Escalating."}
+{"alert_id": "AL001613", "analyst_id": "AN09", "text": "Velocity rule fired; merchant is known. FP."}

@@ -1,0 +1,27 @@
+# Installed dependencies and local Next.js builds
+node_modules/
+.next/
+
+# Generated warehouse, saved reviews and SQLite working files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.building
+
+# Downloaded Windows inference engine and model weights
+/runtime/llama/
+/runtime/*.gguf
+/runtime/setup-*/
+
+# Local credentials and machine-specific files
+.env
+.env.*
+!.env.example
+.vercel/
+*.log
+__pycache__/
+.venv/
+*.py[cod]
+.DS_Store
+Thumbs.db

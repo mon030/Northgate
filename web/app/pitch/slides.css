@@ -1,0 +1,39 @@
+.pitch-frame {
+  width: 100%;
+  height: clamp(340px, 49vw, 610px);
+  border-bottom: 1px solid #cedbd2;
+  margin-bottom: 15px;
+}
+.pitch-frame .reveal {
+  color: #183936;
+}
+.pitch-frame .slides section {
+  text-align: left;
+}
+.pitch-frame h2 {
+  font:
+    42px Georgia,
+    serif;
+}
+.pitch-frame strong {
+  display: block;
+  font:
+    72px Georgia,
+    serif;
+  color: #16604f;
+  margin: 16px 0;
+}
+.pitch-frame p {
+  font:
+    25px/1.4 "Segoe UI",
+    sans-serif;
+  margin: 12px 0;
+}
+.pitch-frame .slide-owner {
+  font-size: 17px;
+  color: #4b675c;
+  margin-bottom: 18px;
+}
+.pitch-frame a {
+  font-size: 22px;
+}

@@ -1,0 +1,31 @@
+{
+  "id": 8,
+  "alert": "AL000029",
+  "request": "Prepare a case summary",
+  "created": "2026-11-26T01:39:36+00:00",
+  "status": "Pending",
+  "draft": "The note describes a wire and the linked transaction records another channel.\n\nAL000029 · 2026-02-21 · rule R09\nTransaction T0000426 is a Card entry on Checking account ending 3860.\nRecorded amount: $11.68 (card spend).\nSource label: THE HOME DEPOT 0621. Candidate brand: Home Depot; grouping awaits review.\nUTC activity sample: 1 record(s), $11.68 card spend. Includes the anchor when returned. Limit 20, ending at the flagged transaction. Sources: T0000426.\n\nEvidence limits\nRule definition unavailable. Use the reported code.\nThe note describes a wire and the linked transaction records another channel.\n\nAttributed note evidence\nanalyst_notes.jsonl line 11 [channel conflict]: Large wire to new payee, customer says did not authorize. Escalating.\n\nProposed next step\nReconcile the note with the transaction channel before accepting the case note.",
+  "trace": [
+    "get_alert_context AL000029 → T0000426",
+    "Plan: get_notes → get_account_activity → calculate_case_indicators → draft → submit_draft_for_review",
+    "get_notes → 1 supplied",
+    "get_account_activity → same-account UTC records, seven days through alert transaction, maximum 20",
+    "calculate_case_indicators → T0000426",
+    "draft → evidence-constrained wording",
+    "submit_draft_for_review → awaiting human decision"
+  ],
+  "usage": {
+    "provider": "Local model",
+    "model": "SmolLM2-360M-Instruct-Q8_0",
+    "prompt_version": "case-review-1.0",
+    "prompt": "You are a fraud operations case preparation assistant. Choose a review lead from the supplied sentences and a follow-up from the permitted options. Prioritize contradictions and missing evidence. You prepare a proposal for an analyst. Return only the requested JSON object.\n{\"review_leads\": [\"The note describes a wire and the linked transaction records another channel.\", \"Review the transaction evidence for this alert.\"], \"follow_ups\": [\"Reconcile the note with the transaction channel before accepting the case note.\", \"Check the cited source records with the reviewing analyst.\"]}",
+    "output_json": {
+      "lead": "The note describes a wire and the linked transaction records another channel.",
+      "follow_up": "Reconcile the note with the transaction channel before accepting the case note."
+    },
+    "input": 142,
+    "output": 40,
+    "usd_api": 0
+  },
+  "elapsed": 0.6862148999935016
+}

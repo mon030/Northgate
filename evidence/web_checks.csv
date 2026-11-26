@@ -1,0 +1,13 @@
+﻿check,result,observed
+Last page reachable,PASS,"1,613 unique alert IDs available across 81 pages"
+Conflict filter,PASS,45 matched alerts
+Missing-note filter,PASS,"1,188 matched alerts"
+Exact ID search,PASS,One matching alert
+Empty search,PASS,Zero results
+Rule filter,PASS,R07 reconciled to Bronze
+Draft stops for review AL000029,PASS,Real model usage logged; original draft pending
+Review persistence AL000029,PASS,Run 10 recorded Revision requested under QA demo
+Human timing separation AL000029,PASS,No synthetic timing pair created
+Draft stops for review AL000002,PASS,Real model usage logged; original draft pending
+Review persistence AL000002,PASS,Run 11 recorded Approved under QA demo
+Human timing separation AL000002,PASS,No synthetic timing pair created

@@ -1,0 +1,46 @@
+[
+  {
+    "owner": "Samuel · 0:00–0:45",
+    "title": "A pilot for fraud operations",
+    "value": "$6,040",
+    "text": "Requested build and training effort. Test whether analysts can release preparation time while retaining control of every accepted note."
+  },
+  {
+    "owner": "Romit · 0:45–2:00",
+    "title": "Where rejected records go",
+    "value": "9,421 records",
+    "text": "Normalize 9,376 local clocks. Classify 1,470 deposit locations on overlapping transactions. Preserve 45 conflicting notes with an explicit review requirement.",
+    "link": "/quality",
+    "label": "Open quarantine and recovery"
+  },
+  {
+    "owner": "Porter · 2:00–3:10",
+    "title": "Two rules, two workload questions",
+    "value": "414.7 hours",
+    "text": "R07 has the largest total workload across 829 alerts. R09 takes 62.6 minutes per alert. Use the rule and month filters to choose cases for a pilot.",
+    "link": "/dashboard",
+    "label": "Open workload dashboard"
+  },
+  {
+    "owner": "Tommy · 3:10–4:45",
+    "title": "A card entry and a wire note",
+    "value": "$11.68",
+    "text": "Follow AL000029 to transaction T0000426 and note line 11. Prepare the case, inspect the trace, and request revision with the discrepancy recorded.",
+    "link": "/cases?alert=AL000029",
+    "label": "Run the agent demo"
+  },
+  {
+    "owner": "Samuel · 4:45–6:15",
+    "title": "Three-year capacity value",
+    "value": "$24,147",
+    "text": "The base case assumes seven minutes released and 75% adoption. Annual running costs are $11,713 including review, support and compute. The downside loses $12,127 over three years.",
+    "link": "/business",
+    "label": "Open three-year sensitivity"
+  },
+  {
+    "owner": "Tommy and Samuel · 6:15–7:00",
+    "title": "What would justify expansion?",
+    "value": "2.56 minutes",
+    "text": "Average minutes released per assisted alert for three-year break-even under base assumptions. Measure paired analyst time and check evidence quality before rollout. Twenty agent checks passed. Human timing remains open."
+  }
+]

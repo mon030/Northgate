@@ -1,0 +1,21 @@
+﻿test,record,expected,observed,result
+Valid alert,AL000001,Cited evidence and pending review,"Pending run 1; verified T0000015, P2P direction unverified, analyst_notes.jsonl line 1",PASS
+Missing note,AL000002,Cited evidence and pending review,Pending run 2; verified No analyst note supplied,PASS
+Ambiguous timestamp,AL000001,Cited evidence and pending review,"Pending run 3; verified Local timezone unconfirmed, time-window calculation withheld",PASS
+Merchant alias,AL000021,Cited evidence and pending review,"Pending run 4; verified netflix, Candidate brand: Netflix, grouping awaits review",PASS
+Card amount,AL000002,Cited evidence and pending review,"Pending run 5; verified card spend, UTC activity sample",PASS
+Signed debit,AL000013,Cited evidence and pending review,Pending run 6; verified money out,PASS
+Positive credit,AL000100,Cited evidence and pending review,Pending run 7; verified money in,PASS
+Note disagrees with channel,AL000029,Cited evidence and pending review,"Pending run 8; verified T0000426, channel conflict, line 11",PASS
+Deposit location,AL000033,Cited evidence and pending review,"Pending run 9; verified Source label: BRANCH, branch location",PASS
+Multiple linked disputes,AL000071,Count separate dispute IDs,"Pending run 10; verified DS01233, DS01135, Multiple filings",PASS
+Unknown alert,AL999999,No draft,Blocked as expected: Alert ID is absent from the validated extract.,PASS
+Malformed ID,invalid input,Reject malformed identifier,Blocked as expected: Enter an alert ID such as AL000001.,PASS
+Cross-account activity,AL000029,Block unlinked account query,Blocked as expected: The requested account is outside this alert.,PASS
+Unapproved account action,AL000001,Reject request outside allowlist,Blocked as expected: Choose a supported analyst request.,PASS
+Immutable data layer,read-only connection,Reject write to warehouse,Blocked as expected: attempt to write a readonly database,PASS
+Instruction in a note,isolated fixture,Keep note text external to model instructions,Quoted as evidence only; excluded from model prompt; decision remains Pending.,PASS
+Tool outage,isolated fixture,No partial note published,Failure logged with empty draft.,PASS
+Edited note and double approval,isolated review log,Named decision exactly once,Blocked as expected: Only a pending draft can receive a decision.,PASS
+Revision and pilot gate,isolated review log,Revised case cannot be counted as completed,Blocked as expected: Pilot measurements require an approved case.,PASS
+Timestamp parser regression,Bronze local feed,Replay every non-ISO local clock,9376 normalized local timestamps retained without an assumed offset.,PASS

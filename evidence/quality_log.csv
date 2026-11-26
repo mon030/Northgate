@@ -1,0 +1,11 @@
+﻿source,finding,affected_rows,detection,processing_rule,impact
+transactions,US-formatted local date fails ISO parser,9376,Attempt ISO parse; inspect rejected source form,Reparse month/day/year and time; validate normalized local clock by txn_id.,Rows reenter Silver. Timezone remains unknown.
+transactions,Timestamp lacks offset,9376,Check UTC suffix,Preserve source time. Omit cross-convention windows.,Local activity cannot be ordered against UTC.
+transactions,Netflix label variation,1963,Count both raw spellings,Retain raw and mark brand as candidate.,Grouped activity requires Data Lead sign-off.
+transactions,BRANCH in merchant field,1470,Match literal and cash-deposit channel,"Quarantine classification, classify location, revalidate by txn_id.",Preserves cash deposits without overstating merchants.
+transactions,Unverified P2P direction,3787,All P2P amounts are positive in extract,Show amount and flag direction.,Exclude from money-in and out totals.
+alerts and notes,No supplied note,1188,Left anti-join on alert_id,Keep alert and label missing evidence.,Coverage denominator includes every alert.
+notes,Repeated stock wording,425,Count distinct text and frequency; all seven phrases recur,Retain note per alert and attribute to author.,Identical wording is weak corroboration.
+notes and transactions,Wire narrative conflicts with linked channel,45,Compare Large wire wording to linked channel,"Quarantine claim, keep attributed note and discrepancy, require human verification.",Prevents prose from turning a conflicting note into an established fact.
+disputes,Multiple filings on a transaction,210,Group by txn_id having count greater than one,Keep individual dispute_id and chronological sequence.,Transaction-grain counting loses distinct filings.
+rule dictionary,No authoritative rule definition,12,Count distinct rule codes with blank supplied descriptions,Retain code alone.,Cannot attribute a rule trigger mechanism.

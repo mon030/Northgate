@@ -1,0 +1,6 @@
+﻿file,grain,bronze_derived_rows,supplied_rows,compared_columns,differences
+fact_alert.csv,alert_id,1613,1613,18,0
+fact_dispute.csv,dispute_id,1500,1500,14,0
+dim_rule.csv,rule_id,12,12,2,0
+v_workload_by_rule.csv,rule_id,12,12,7,0
+v_dashboard_summary.csv,whole extract,1,1,5,0

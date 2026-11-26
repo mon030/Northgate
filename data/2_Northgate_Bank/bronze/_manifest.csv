@@ -1,0 +1,7 @@
+file,records,bytes
+core_banking/accounts.csv,5980,253710
+core_banking/customers.csv,3012,333647
+disputes/card_disputes.csv,1500,129657
+fraud_engine/alerts.csv,1613,112086
+fraud_engine/analyst_notes.jsonl,425,43932
+transactions/transactions.csv,31254,2402326

@@ -1,0 +1,11 @@
+﻿alert,model,prompt_version,input_tokens,output_tokens,api_usd,seconds
+AL000001,SmolLM2-360M-Instruct-Q8_0,case-review-1.0,133,31,0,1.946
+AL000002,SmolLM2-360M-Instruct-Q8_0,case-review-1.0,132,30,0,0.525
+AL000001,SmolLM2-360M-Instruct-Q8_0,case-review-1.0,133,31,0,0.42
+AL000021,SmolLM2-360M-Instruct-Q8_0,case-review-1.0,132,30,0,0.443
+AL000002,SmolLM2-360M-Instruct-Q8_0,case-review-1.0,132,30,0,0.437
+AL000013,SmolLM2-360M-Instruct-Q8_0,case-review-1.0,132,30,0,0.429
+AL000100,SmolLM2-360M-Instruct-Q8_0,case-review-1.0,132,30,0,0.466
+AL000029,SmolLM2-360M-Instruct-Q8_0,case-review-1.0,142,40,0,0.686
+AL000033,SmolLM2-360M-Instruct-Q8_0,case-review-1.0,132,30,0,0.574
+AL000071,SmolLM2-360M-Instruct-Q8_0,case-review-1.0,133,31,0,0.468
