@@ -2,6 +2,24 @@
 
 Northgate is a student capstone using fictional bank data. Porter’s workload dashboard and Tommy’s case-preparation agent share the same alert records. An analyst can open an alert, inspect the agent’s cited evidence, edit a draft and record a decision. The business case asks whether the time saved after human review justifies the build and operating costs.
 
+## Porter's dashboard handoff
+
+Porter owns Component 4, the dashboard and its source checks. Start with the [live workload dashboard](https://northgate-nu.vercel.app/dashboard). The dashboard works in a browser without setup or an API key.
+
+1. **Verify the figures you plan to present.** These five measures were checked against the original alert and analyst-note files on November 26. The sixth measure, minutes saved per case, requires paired human timings. The app showed zero pairs and displayed **Pending**. Keep that label until the team measures a case.
+
+   | Rule filter, all months | Alerts | Analyst hours | Minutes per alert | Recorded false positives | Alerts with notes |
+   | --- | ---: | ---: | ---: | ---: | ---: |
+   | All | 1,613 | 885.1 | 32.9 | 90.3% | 26.3% |
+   | R07 | 829 | 414.7 | 30.0 | 94.5% | 25.2% |
+   | R09 | 146 | 152.4 | 62.6 | 56.2% | 27.4% |
+
+   The all-rules control is 53,108 recorded minutes, 1,457 alerts marked false positive and 425 alerts with notes. Round after aggregation. [Source checks by month and rule](evidence/dashboard_checks.csv)
+2. **Explain the difference between volume and effort.** R07 accounts for about half the alerts. R09 has fewer alerts and takes more than twice as long per alert as R07. Use the dashboard filters live, then hand the demo to Tommy with [AL000029, an R09 case](https://northgate-nu.vercel.app/cases?alert=AL000029). The recorded minutes cover historical case work. Measuring how much of that work the agent saves requires the pilot.
+3. **Coordinate with Tommy and the business-case lead.** Porter verifies each figure used on the team’s slides. Tommy demonstrates the conflicting evidence and reviewer decision. Use the [business case](https://northgate-nu.vercel.app/business) for build, training, review and support costs and the [data-quality page](https://northgate-nu.vercel.app/quality) for quarantine corrections.
+
+**Working agreement for Porter and coding assistants.** Start with [the dashboard page](web/app/dashboard/page.jsx) and [its chart](web/app/dashboard/chart.jsx) for display changes. For a metric change, inspect `dashboard()` in [web_service.py](web_service.py) and `METRICS` in [build.py](build.py). Preserve one row per alert and count disputes by dispute ID. Check both the whole extract and a filtered slice against [dashboard controls](evidence/dashboard_checks.csv). See [web development instructions](web/AGENTS.md) before editing Next.js code. Each local copy has its own review history. Git excludes database files, credentials, installed dependencies and downloaded model binaries.
+
 ## Run the app from a clone
 
 Install Python 3.11+ and Node.js 22.12+ with npm. From the repository root, run the following command or double-click **Open Northgate.cmd** on Windows.
@@ -42,11 +60,15 @@ In **Vercel → northgate → Settings → Environment Variables**, change `NORT
 
 ## What the assignment grades
 
-**Verified classroom demo.** Open the [live app](https://northgate-nu.vercel.app/dashboard). Hosted case preparation defaults to **Rules only**. On November 26, the authorized Gemini request for AL000029 returned HTTP 402 and the agent withheld the draft. The separate [Rules only QA run](https://northgate-nu.vercel.app/cases?run=2) found the note/channel conflict, stopped for review, and persisted a revision request. Both appear in history. QA supplied no pilot timings. The Windows **Local model** provides the tested generative option while the Gemini project has no credits.
+**Agent Builder handoff.** Keep the tested prompt version `case-review-1.0` for the class demo. It sets the role, supplies the evidence-supported choices for the case, asks for a lead and follow-up, and requires JSON. The code checks each selection, adds source citations, and leaves the decision to a reviewer. The [prompt pack and AI log](evidence/Prompt%20pack%20and%20AI%20log.md) and [20 test outcomes](evidence/test_results.csv) document the broader evaluation.
+
+**What Gemini actually produced.** In [hosted run 7](https://northgate-nu.vercel.app/cases?run=7), the model selected “The note describes a wire and the linked transaction records another channel.” It also selected “Reconcile the note with the transaction channel before accepting the case note.” Transaction T0000426 records a card transaction and analyst note line 11 mentions a wire. The saved run was Pending when verified. Gemini reported 111 input, 37 output and 200 thinking tokens, 348 total. An earlier provider failure withheld the draft, and a [separate Rules only run](https://northgate-nu.vercel.app/cases?run=2) recorded a revision request. No pilot time was entered for these QA checks.
+
+**Tommy’s next step.** On a fresh alert, time your manual preparation and then the entire assisted workflow, including checking citations and making your own decision. Enter the pair only on a genuinely approved run. Write down one thing the agent caught or missed and what you did about it. Bring that observation to the seven-minute team rehearsal. For the live generative demo, select **Gemini API** in the engine menu and check consent before preparing the draft.
 
 **Finding another case.** Open [Browse alerts](http://127.0.0.1:3301/alerts) to search all 1,613 alert IDs by alert, transaction, rule or evidence type. Try AL000002 for missing notes, AL000001 for local time, or AL000071 with the “Check linked disputes” request. Use [Data quality](http://127.0.0.1:3301/quality) to trace actual intake and reprocessing records.
 
-**Materials for the live presentation.** The browser-based [team presentation](http://127.0.0.1:3301/pitch) has six slides with a timed speaker handoff and links to the live demo. Team presentation.pdf is the offline copy. Funding brief.pdf contains all eight components, appendices with the prompt, QA log and test outcomes, and the one-page architecture. Edit the deck content in web/app/pitch/slides.json. Run report.py with ReportLab and pypdf installed to regenerate the PDFs.
+**Materials for the live presentation.** The browser-based [team presentation](http://127.0.0.1:3301/pitch) has six slides with a timed speaker handoff and links to the live demo. The team creates its final presentation together. The local PDF exports include an offline deck, a funding brief covering all eight components and appendices, and a one-page architecture. Edit the deck content in web/app/pitch/slides.json. Run report.py with ReportLab and pypdf installed to regenerate the PDFs.
 
 **QA evidence.** All 20 agent tests and 12 web checks passed. The web check performed one approval and one revision under the reviewer name QA demo. Neither created a human pilot observation. Run web_check.py only for a fresh QA exercise with the site running, since it adds labeled QA runs to review history.
 
@@ -62,12 +84,6 @@ The December 4 team deliverables are the seven-minute pitch with a live dashboar
 | 6 Industry fit | Samuel adapts the workflow assessment in Funding brief.pdf to the class industry map. |
 | 7 Governance and unit cost | Review decisions and tool/model traces live in reviews.db. Ten real local-model usage records are in evidence/local_token_runs.csv. |
 | 8 ROI | Samuel reviews business.py and evidence/cost_model.csv. Pilot time, adoption and pay rates are assumptions until the team measures or validates them. |
-
-## Porter's dashboard handoff
-
-Use the Next.js App Router in web/. Edit the dashboard page and Recharts chart independently of the case-review page. The browser's read-only **GET /api/dashboard?month=2026-02&rule=R09** returns months, rules, active filters, totals, by_rule and by_month. Use All for either filter. The whole-extract control is 1,613 alerts, 53,108 minutes, 1,457 recorded false positives and 425 alerts with notes. Divide counts and minutes after filtering. The pilot measure is the mean of manual minus assisted minutes from completed pairs matching the filter. Pending is a missing measurement. Export columns from earlier handoffs remain available in Gold. The Next.js dashboard is the proposed replacement for the Excel display in Part 1.
-
-**Working agreement for Porter and coding assistants.** Start with [the dashboard page](web/app/dashboard/page.jsx) and [its chart](web/app/dashboard/chart.jsx) for display changes. For a metric change, inspect `dashboard()` in [web_service.py](web_service.py) and `METRICS` in [build.py](build.py). Preserve one row per alert and count disputes by dispute ID. Check both the whole extract and a filtered slice against [dashboard controls](evidence/dashboard_checks.csv). See [web development instructions](web/AGENTS.md) before editing Next.js code. Each local copy has its own review history. Git excludes database files, credentials, installed dependencies and downloaded model binaries.
 
 ## Rebuild and verify
 
@@ -90,7 +106,7 @@ Run `python setup_model.py` first for the local-model tests in `verify.py`. The 
 
 The tested local engine is HuggingFaceTB SmolLM2-360M-Instruct Q8_0 served by llama.cpp b12728 on loopback. The optional setup script restores this engine and model for a new checkout. The Rules only and local-model options work without a Gemini key.
 
-The optional Gemini API engine accepts a session key in a masked field or a server-only GEMINI_API_KEY environment variable. GEMINI_MODEL can select another structured-output-capable model. In the web form, explicitly confirm the data sent to Google. The adapter sends candidate review sentences, which can reveal a case condition. Identifiers, transaction amounts, names, and note text stay on this machine. The free-tier project was verified in AI Studio. Automated review prevented transmitting case-derived text to Gemini, so no Gemini run or charge is claimed. AI Pro credits are personal benefits and are excluded from the bank model. All accounting shown for inference comes from the local model.
+Gemini receives the permitted review sentences and the drafting instruction. The app assembles the source note, names, identifiers and amounts outside the Gemini request. Hosted credentials are configured server-side. The live case above records provider-reported usage. The bank’s costing scenario uses the local model and excludes personal subscription benefits.
 
 ## Seven-minute rehearsal
 
