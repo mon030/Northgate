@@ -19,6 +19,7 @@ export default async function Cases({ searchParams }) {
       <Workspace
         key={q.run || q.alert || "new"}
         initial={run}
+        hosted={Boolean(process.env.VERCEL)}
         initialAlert={q.alert || "AL000029"}
       />
     </>

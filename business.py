@@ -31,8 +31,12 @@ def calculate(half_year_count,name):
         three_year_economic_roi=3*benefit/(startup+3*op)-1,
         payback_months=startup/contribution*12 if contribution>0 else None,
         break_even_minutes_three_year=(recurring_fixed+startup/3)*60/(cases*RATE))
-def scenarios():
-    with connect_data() as db: n=db.execute('SELECT count(*) FROM fact_alert').fetchone()[0]
+def scenarios(db=None):
+    if db is None:
+        from contextlib import closing
+        with closing(connect_data()) as connection:
+            return scenarios(connection)
+    n=db.execute('SELECT count(*) FROM fact_alert').fetchone()[0]
     return [calculate(n,name) for name in SCENARIOS]
 if __name__=='__main__':
     rows=scenarios()

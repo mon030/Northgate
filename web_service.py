@@ -1,7 +1,7 @@
 """Private JSON bridge between Next.js and the same tested agent tools."""
 import json
 import sys
-from contextlib import closing
+from contextlib import closing, nullcontext
 from datetime import datetime
 import agent
 import models
@@ -34,8 +34,8 @@ def run_data(log,key):
         run[key]=dict(item) if item else None
     return run
 
-def execute(op,args):
-    with closing(agent.connect_data()) as db,closing(agent.app_log()) as log:
+def execute(op,args,*,warehouse=None,review_log=None):
+    with (nullcontext(warehouse) if warehouse is not None else closing(agent.connect_data())) as db, (nullcontext(review_log) if review_log is not None else closing(agent.app_log())) as log:
         if op=='alerts':
             term=str(args.get('q','')).strip().upper()[:40]; kind=args.get('kind','All')
             conditions={'All':'1','Missing note':'a.has_note=0','Conflicting note':"EXISTS(SELECT 1 FROM silver_notes n WHERE n.alert_id=a.alert_id AND n.evidence_status='channel conflict')",'Local timestamp':"a.ts_convention='LOCAL'",'Linked disputes':'EXISTS(SELECT 1 FROM silver_disputes d WHERE d.txn_id=a.txn_id)'}
@@ -52,7 +52,7 @@ def execute(op,args):
                 JOIN quarantine_history h USING(source,source_key,issue) WHERE i.source_key IN (SELECT min(source_key) FROM quarantine_intake GROUP BY issue) ORDER BY i.issue""")]
             return dict(summary=summary,examples=examples)
         if op=='dashboard':return dashboard(db,log,args)
-        if op=='economics':return scenarios()
+        if op=='economics':return scenarios(db)
         if op=='history':return [dict(r) for r in log.execute('SELECT id,alert,status,created FROM runs ORDER BY id DESC LIMIT 50')]
         if op=='run':return run_data(log,args['id'])
         if op=='prepare':

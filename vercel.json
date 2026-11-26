@@ -1,0 +1,20 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "frontend": {
+      "root": "web",
+      "framework": "nextjs",
+      "bindings": [
+        { "type": "service", "service": "evidence", "format": "url", "env": "NORTHGATE_EVIDENCE_URL" }
+      ]
+    },
+    "evidence": {
+      "root": ".",
+      "framework": "fastapi",
+      "entrypoint": "hosted:app"
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": { "service": "frontend" } }
+  ]
+}

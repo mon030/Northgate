@@ -6,11 +6,11 @@ const requests = [
   "Review account activity",
   "Check linked disputes",
 ];
-export default function Workspace({ initial, initialAlert }) {
+export default function Workspace({ initial, initialAlert, hosted }) {
   const [run, setRun] = useState(initial),
     [alert, setAlert] = useState(initial?.alert || initialAlert),
     [intent, setIntent] = useState(initial?.request || requests[0]),
-    [mode, setMode] = useState("Local model");
+    [mode, setMode] = useState(hosted ? "Gemini API" : "Local model");
   const [body, setBody] = useState(
       initial?.decision?.final_text || initial?.draft || "",
     ),
@@ -91,14 +91,14 @@ export default function Workspace({ initial, initialAlert }) {
               value={mode}
               onChange={(e) => setMode(e.target.value)}
             >
-              {["Local model", "Gemini API", "Rules only"].map((x) => (
+              {(hosted ? ["Gemini API", "Rules only"] : ["Local model", "Gemini API", "Rules only"]).map((x) => (
                 <option key={x}>{x}</option>
               ))}
             </select>
           </label>
           {mode === "Gemini API" && (
             <div className="cloud">
-              <label>
+              {!hosted && <label>
                 Free-tier API key (or configured environment key)
                 <input
                   type="password"
@@ -107,7 +107,7 @@ export default function Workspace({ initial, initialAlert }) {
                   onChange={(e) => setSecret(e.target.value)}
                   autoComplete="off"
                 />
-              </label>
+              </label>}
               <label>
                 <input
                   type="checkbox"
@@ -117,7 +117,7 @@ export default function Workspace({ initial, initialAlert }) {
                 />{" "}
                 Send the permitted review sentences, which can disclose a
                 missing note or channel conflict, to the Google Gemini API for
-                this draft. Source notes and identifiers stay local.
+                this draft. The prompt excludes source notes and identifiers.
               </label>
             </div>
           )}

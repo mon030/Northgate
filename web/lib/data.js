@@ -1,7 +1,11 @@
 import { spawn } from "node:child_process";
 import path from "node:path";
+import { hostedData } from "./hosted";
 
 export function data(operation, params = {}) {
+  if (process.env.VERCEL || process.env.NORTHGATE_EVIDENCE_URL) {
+    return hostedData(operation, params);
+  }
   return new Promise((resolve, reject) => {
     const dir = path.resolve(process.cwd(), "..");
     const child = spawn(

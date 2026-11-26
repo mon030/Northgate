@@ -32,11 +32,13 @@ The prompt guides the choice among evidence-supported lead sentences and follow-
 | `GEMINI_API_KEY` | Private API credential for the Gemini engine. Keep it in the ignored local file or the hosting platform’s secret store. |
 | `GEMINI_MODEL` | Optional Gemini API model ID that supports structured output and is available to your project. |
 
-## Vercel handoff after GitHub publication
+## Hosted app on Vercel
 
-The Next.js frontend lives in `web/`. The local [data adapter](web/lib/data.js) starts [web_service.py](web_service.py) as a child process. Approval, revision and timing records are written to `reviews.db`. A successful Next.js build verifies the frontend. A shared deployment also needs a hosted Python service or Function and durable storage for these writes. Vercel Functions have a read-only deployment filesystem and temporary scratch space. Keep the teaching warehouse reproducible from Bronze, and verify that a saved review survives a new deployment. [Vercel Function filesystem](https://vercel.com/docs/functions/runtimes#file-system-support)
+The project builds from the repository root. The [service configuration](vercel.json) routes public traffic to the Next.js frontend and gives its server a private connection to the Python evidence service. The Python service rebuilds the read-only teaching warehouse from the six Bronze files on cold start. The frontend saves the compressed SQLite review log in a private Vercel Blob store. Conditional writes detect simultaneous changes. Reload the case if another reviewer saves first. The production log starts independently of each laptop and previews use separate paths.
 
-Once the GitHub repository is published and connected, open the Vercel project’s **Settings → Environment Variables**. Add `NORTHGATE_AGENT_PROMPT` as ordinary configuration and `GEMINI_API_KEY` as a server-side secret. Add `GEMINI_MODEL` if needed. Select **Production**, and enable **Preview** only for previews that should have this access. Use the same settings on the runtime that calls Gemini if it is hosted separately. Leave the `NEXT_PUBLIC_` prefix off all three variables. Deploy again to apply changes, then test a draft and a saved reviewer decision on the deployed URL. [Vercel environment settings](https://vercel.com/docs/environment-variables/managing-environment-variables)
+The classroom URL is public. Use the supplied fictional alerts and reviewer initials suitable for the class. A visitor can prepare a draft, read the shared history, and record a decision. Select **Gemini API**, check the consent box and choose **Prepare draft**, or select **Rules only** for a zero-API exercise. The Windows offline model is available through the local launcher.
+
+In **Vercel → northgate → Settings → Environment Variables**, change `NORTHGATE_AGENT_PROMPT` to edit the drafting instruction. Store `GEMINI_API_KEY` as a sensitive server variable and optionally set `GEMINI_MODEL`. Redeploy to apply changes. The private Blob connection supplies the storage credentials. [Vercel environment settings](https://vercel.com/docs/environment-variables/managing-environment-variables)
 
 ## What the assignment grades
 
