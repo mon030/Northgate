@@ -10,7 +10,7 @@ export default function Workspace({ initial, initialAlert, hosted }) {
   const [run, setRun] = useState(initial),
     [alert, setAlert] = useState(initial?.alert || initialAlert),
     [intent, setIntent] = useState(initial?.request || requests[0]),
-    [mode, setMode] = useState(hosted ? "Gemini API" : "Local model");
+    [mode, setMode] = useState(hosted ? "Rules only" : "Local model");
   const [body, setBody] = useState(
       initial?.decision?.final_text || initial?.draft || "",
     ),

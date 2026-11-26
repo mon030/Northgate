@@ -42,6 +42,8 @@ In **Vercel → northgate → Settings → Environment Variables**, change `NORT
 
 ## What the assignment grades
 
+**Verified classroom demo.** Open the [live app](https://northgate-nu.vercel.app/dashboard). Hosted case preparation defaults to **Rules only**. On November 26, the authorized Gemini request for AL000029 returned HTTP 402 and the agent withheld the draft. The separate [Rules only QA run](https://northgate-nu.vercel.app/cases?run=2) found the note/channel conflict, stopped for review, and persisted a revision request. Both appear in history. QA supplied no pilot timings. The Windows **Local model** provides the tested generative option while the Gemini project has no credits.
+
 **Finding another case.** Open [Browse alerts](http://127.0.0.1:3301/alerts) to search all 1,613 alert IDs by alert, transaction, rule or evidence type. Try AL000002 for missing notes, AL000001 for local time, or AL000071 with the “Check linked disputes” request. Use [Data quality](http://127.0.0.1:3301/quality) to trace actual intake and reprocessing records.
 
 **Materials for the live presentation.** The browser-based [team presentation](http://127.0.0.1:3301/pitch) has six slides with a timed speaker handoff and links to the live demo. Team presentation.pdf is the offline copy. Funding brief.pdf contains all eight components, appendices with the prompt, QA log and test outcomes, and the one-page architecture. Edit the deck content in web/app/pitch/slides.json. Run report.py with ReportLab and pypdf installed to regenerate the PDFs.

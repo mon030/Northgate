@@ -30,6 +30,8 @@ def request_json(url, body, headers, timeout=45):
     try:
         with urlopen(request,timeout=timeout) as response: return json.load(response)
     except HTTPError as error:
+        if error.code == 402 and url.startswith('https://generativelanguage.googleapis.com/'):
+            raise RuntimeError('Gemini returned HTTP 402. Check the API project’s credit balance in AI Studio, or select Rules only to continue.') from None
         raise RuntimeError(f'Model service returned HTTP {error.code}. Check model access and try again.') from None
 
 def stop():

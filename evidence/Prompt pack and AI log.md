@@ -22,6 +22,10 @@ This is a record of AI-assisted work in this chat. Automated checks below do not
 
 ## Stakeholder communication
 
+### Public deployment QA, November 26
+
+The hosted test used fictional AL000029 with permission to send four approved candidate sentences to Gemini. Google returned HTTP 402. Run 1 retained the failure trace and an empty draft. On the same alert, run 2 used Rules only, stopped at Pending, and saved a revision request under Deployment QA. A separate read returned that decision. Neither run supplied manual or assisted pilot timings. The team can demonstrate provider failure handling and show how production review storage survives a later deployment. The local model tests remain the evidence for measured generative token usage.
+
 **To the fraud operations manager — pilot funding request**
 
 Our six-month sample contains 1,613 alerts and 885.1 hours of recorded analyst work. The proposed pilot will test how much of the preparation step we can safely shorten. One demonstration case links an $11.68 card purchase to a note describing a wire. The assistant brings both records to the reviewer and records the reviewer’s decision. We request $6,040 for build and training under the base assumptions. We will compare manual and assisted preparation on the same alerts before recommending rollout. At the assumed level of adoption, the pilot needs to release about 2.56 minutes per assisted case to break even over three years.
